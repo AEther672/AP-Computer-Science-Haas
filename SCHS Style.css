@@ -1,0 +1,118 @@
+<!DOCTYPE css>
+
+
+.random {
+
+}
+
+body {
+	background-image: url(purplepurple.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 300%;
+	font-family: "Arial", arial, sans-serif
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 250%;
+	font-family: "Arial", arial, sans-serif
+}
+
+h3 {
+	color: white;
+	text-align: center;
+	font-size: 300%;
+}
+
+a {
+	color: white;
+	text-align: center;
+	font-size: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:link    {
+	/* Applies to all unvisited links */
+		text-decoration:  none;
+}
+
+a:visited {
+	/* Applies to all visited links */
+		text-decoration:  none;
+}
+
+a:hover   {
+	/* Applies to links under the pointer */
+		text-decoration:  none;
+		font-weight:      bold;
+		color:            #497AC7;
+}
+
+a:active  {
+	/* Applies to activated links */
+		text-decoration:  underline;
+}
+
+.text {
+	color: grey;
+}
+
+img.displayed {
+	display: block;
+	margin-left: 26%;
+	margin-right: 26%;
+	height: 50%;
+	width: 50%;
+}
+
+img.1st {
+	height: 200px;
+	width: 200px;
+}
+
+.imgContainer{
+	float: left;
+	display: inline-block;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+#images {
+	align: center;
+}
+
+.likes {
+
+	float: left;
+	height: 443px;
+	width: 443px;
+	overflow: hidden;
+	padding: 0px;
+	margin-left: 0;
+}
+
+.text {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.schoolInfo {
+	padding: 10px;
+	text-align: center;
+	margin-top: 120px;
+}
+
+.container {
+	width: 100%;
+	display: table;
+}

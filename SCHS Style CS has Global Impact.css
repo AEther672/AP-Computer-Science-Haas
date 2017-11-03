@@ -1,0 +1,69 @@
+<!DOCTYPE css>
+
+body {
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 300%;
+	background-color: #660b24;
+	font-family: "Arial", arial, sans-serif
+}
+
+a {
+	color: white;
+	text-align: center;
+	font-size: 100%;
+	background-color: #660b24;
+}
+
+body {
+	background-color: #660b24;
+}
+
+ul {
+	list-style-type: none;
+	color: white;
+	text-align: left;
+	font-size: 200%;
+	background-color: #660b24;
+}
+
+a:link    {
+	/* Applies to all unvisited links */
+		text-decoration:  none;
+}
+
+a:visited {
+	/* Applies to all visited links */
+		text-decoration:  none;
+} 
+
+a:hover   {
+	/* Applies to links under the pointer */
+		text-decoration:  none;
+		font-weight:      bold;
+		color:            #497AC7;
+} 
+
+a:active  {
+	/* Applies to activated links */
+		text-decoration:  underline;
+} 
+
+li:before {
+	content: "-";
+}
+
+div {
+    height: 200px;
+    width: 500px;
+    background: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -255px;
+}
