@@ -42,7 +42,7 @@ The content `<div>` is where all your content goes.
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 800px;
+    max-width: 90%;
     margin-bottom: 50px;
     line-height: 1.6em;
 }
@@ -70,7 +70,6 @@ The content `<div>` is where all your content goes.
     margin: 50px 0 20px 0;
     font-weight: 300;
     color: #888;
-    text-align: center;
 }
 
 

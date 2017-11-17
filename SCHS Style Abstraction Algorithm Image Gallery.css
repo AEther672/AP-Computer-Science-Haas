@@ -38,20 +38,27 @@ a:link    {
 a:visited {
 	/* Applies to all visited links */
 		text-decoration:  none;
-} 
+}
 
 a:hover   {
 	/* Applies to links under the pointer */
 		text-decoration:  none;
 		font-weight:      bold;
 		color:            #497AC7;
-} 
+}
 
 a:active  {
 	/* Applies to activated links */
 		text-decoration:  underline;
-} 
+}
 
 li:before {
 	content: "-";
+}
+
+iframe {
+	frameborder: 1000px;
+	style: 20;
+	height: 850px;
+	width: 1725px;
 }
